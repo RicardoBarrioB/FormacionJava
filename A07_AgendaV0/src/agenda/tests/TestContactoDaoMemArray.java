@@ -1,0 +1,24 @@
+package agenda.tests;
+
+import agenda.modelo.Contacto;
+import agenda.persistencia.ContactoDao;
+import agenda.persistencia.ContactoDaoMemArray;
+
+public class TestContactoDaoMemArray {
+	public static void main(String[] args) {
+		
+		ContactoDao dao = new ContactoDaoMemArray();
+		
+		System.out.println(dao.buscar(1));
+		
+		Contacto nuevo = new Contacto("Juan", "Perez", "Juanito");
+		System.out.println(nuevo.getIdContacto());
+		
+		dao.insertar(nuevo);
+		
+		System.out.println(nuevo.getIdContacto());
+		
+		Contacto buscado = dao.buscar(1);
+		System.out.println(buscado);
+	}
+}
