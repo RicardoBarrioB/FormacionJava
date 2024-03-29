@@ -1,0 +1,25 @@
+
+body{
+	background-color: lightcyan; 
+	padding: 20px;
+}
+h4{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 35px;
+}
+p{
+	text-align: justify;
+}
+span#primera_letra{
+	font-size: 45px;
+	color:blue;
+}
+span#importante{
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+.centrado{
+	text-align: center;
+}
+  

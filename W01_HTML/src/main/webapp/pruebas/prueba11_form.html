@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="nombre" content="contenido">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<style>
+	input{
+		display: block;
+		margin-bottom: 10px;
+	}
+	input[type="radio"]{
+		display: inline;
+		margin-left: 15px;
+	}
+</style>
+</head>
+<body>
+	<div>
+		<h2>Formulario</h2>
+		<form>
+			<label for "ape">Apellidos</label>
+			<input name="ape" type="text" required />
+			
+			<label for "pwd">Password</label>
+			<input name="pwd" type="password" required="required" />
+			
+			<input name="nom" type="text" placeholder="Nombre Completo"/>
+			
+			<label for="fecha">Fecha</label>
+			<input name="fecha" type="date" />
+			
+			<input type="radio" value="s" name="estado_civil" />
+			Soltero
+			<input type="radio" value="c" name="estado_civil" />
+			Casado
+			<input type="radio" value="o" name="estado_civil" checked/>
+			Otro
+			
+			<br/>
+			Recibir publicidad
+			<input type="checkbox" name="public" />
+			
+			<label>Provincia</label>
+			<select name="provincia">
+				<option value 28>Madrid</option>
+				<option value 33>Barcelona</option>
+				<option value 44>Ciudad Real</option>
+				<option value 55>Sevilla</option>
+				<option value 66>Valencia</option>
+			</select>
+			<br />
+			<input type="submit" value="Enviar" />
+			
+		</form>
+	</div>	
+</body>
+</html>
+
+
+
+

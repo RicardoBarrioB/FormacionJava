@@ -1,0 +1,36 @@
+
+table{
+	width: 50%;
+	margin: 30px auto;
+	border: 2px solid navy;
+	box-shadow: 15px 15px 10px gray;
+	font-family: Helvetica;
+}
+
+table caption{
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 10px;
+}
+table thead th, table#tablaDatos tfoot td{
+	background-color: navy;
+	color: white;
+	font-size: 1.2em;
+}
+
+table th, table#tablaDatos td{
+	padding: 5px 7px;
+}
+
+table td:nth-child(4){
+	text-align: right;
+}
+
+table tr:nth-child(odd){
+	background-color: #a8a8a8;
+}
+
+table tbody tr:hover{
+	background-color: gray;
+	color: white;
+}
